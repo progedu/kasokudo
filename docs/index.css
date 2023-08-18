@@ -1,0 +1,101 @@
+body {
+    font-family: Avenir,Open Sans,-apple-system,BlinkMacSystemFont,ZaneYuGothicM,Meiryo,sans-serif;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255,255,255, 0.01), rgba(255,255,255, 1) 85%),radial-gradient(ellipse at top left, rgba(12,110,253, 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(255,138,132, 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(112,44,249, 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(214,51,131, 0.5), transparent 50%);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+main {
+    padding: 5px;
+}
+
+#header {
+    background: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: rgba(33, 28, 28, 0.8);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 1rem;
+    width: 100%;
+    background-color: rgba(132, 119, 119, 0.5);
+    color: #333;
+    padding: 1rem;
+}
+
+#property {
+    background-color: none;
+}
+
+#data-header {
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: rgba(225, 83, 83, 0.84);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 1rem;
+}
+
+#data-main {
+    background-color: rgba(242, 171, 171, 0.568);
+    padding: 5px;
+}
+
+#data-menu {
+    background-color: rgba(242, 171, 171, 0.568);
+    padding: 5px;
+    padding-top: 10px;
+}
+
+canvas {
+    background-color: white;
+    width: 100%;
+    max-height: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#data-footer {
+    background-color: rgba(225, 83, 83, 0.84);
+}
+
+.data-input {
+    background-color: rgba(255, 255, 255, 0.506);
+    margin: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    right: -8px;
+    top: -10px;
+    background: #333;
+    opacity: 0.7;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+input {
+    text-align: right;
+}
+
+#add-data-button {
+    background-color: rgb(150, 5, 5);
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
