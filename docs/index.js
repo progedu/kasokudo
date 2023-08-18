@@ -11,6 +11,7 @@ const accelerationParam = params.get('accelerationList') || '-9.8,-9.8,-9.8,-9.8
 let accelerationList = accelerationParam.split(',').map((x) => parseFloat(x));
 const intervalParam = params.get('interval') || '1';
 let interval = parseFloat(intervalParam);
+history.replaceState('','','?accelerationList=' + accelerationList.join(',') + '&interval=' + interval)
 
 let speedList = [];
 let positionList = [];
